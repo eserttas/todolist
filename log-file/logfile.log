@@ -1,0 +1,93 @@
+"2019-12-11 02:11:06 [main] INFO  c.e.todolist.TodolistApplication - Starting TodolistApplication on DESKTOP-BQ4L55I with PID 10908 (C:\Users\HP\Desktop\todolist\target\classes started by HP in C:\Users\HP\Desktop\todolist)
+""2019-12-11 02:11:06 [main] INFO  c.e.todolist.TodolistApplication - No active profile set, falling back to default profiles: default
+""2019-12-11 02:11:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-12-11 02:11:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 174ms. Found 2 repository interfaces.
+""2019-12-11 02:11:09 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-12-11 02:11:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2019-12-11 02:11:10 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2019-12-11 02:11:10 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+""2019-12-11 02:11:10 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2019-12-11 02:11:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-12-11 02:11:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-12-11 02:11:11 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+""2019-12-11 02:11:12 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2019-12-11 02:11:12 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.8.Final}
+""2019-12-11 02:11:12 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2019-12-11 02:11:13 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2019-12-11 02:11:15 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2019-12-11 02:11:15 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-12-11 02:11:17 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44df834c, org.springframework.security.web.context.SecurityContextPersistenceFilter@20462820, org.springframework.security.web.header.HeaderWriterFilter@69926b6e, org.springframework.security.web.authentication.logout.LogoutFilter@1a73f3d1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4f0cdd0f, org.springframework.security.web.session.ConcurrentSessionFilter@15c3585, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@384f0e32, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@13731ff4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34c07ecc, org.springframework.security.web.session.SessionManagementFilter@5a010eec, org.springframework.security.web.access.ExceptionTranslationFilter@5eff5e4c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53f1fcc2]
+""2019-12-11 02:11:17 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2019-12-11 02:11:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2019-12-11 02:11:17 [main] INFO  c.e.todolist.TodolistApplication - Started TodolistApplication in 13.416 seconds (JVM running for 14.708)
+""2019-12-11 02:11:25 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2019-12-11 02:14:49 [main] INFO  c.e.todolist.TodolistApplication - Starting TodolistApplication on DESKTOP-BQ4L55I with PID 14640 (C:\Users\HP\Desktop\todolist\target\classes started by HP in C:\Users\HP\Desktop\todolist)
+""2019-12-11 02:14:49 [main] INFO  c.e.todolist.TodolistApplication - No active profile set, falling back to default profiles: default
+""2019-12-11 02:14:50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-12-11 02:14:50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 101ms. Found 2 repository interfaces.
+""2019-12-11 02:14:51 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-12-11 02:14:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2019-12-11 02:14:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2019-12-11 02:14:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+""2019-12-11 02:14:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2019-12-11 02:14:52 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-12-11 02:14:53 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-12-11 02:14:53 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+""2019-12-11 02:14:53 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2019-12-11 02:14:53 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.8.Final}
+""2019-12-11 02:14:53 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2019-12-11 02:14:53 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2019-12-11 02:14:55 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2019-12-11 02:14:55 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-12-11 02:14:56 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53dba9cd, org.springframework.security.web.context.SecurityContextPersistenceFilter@23396fc0, org.springframework.security.web.header.HeaderWriterFilter@5c573229, org.springframework.security.web.authentication.logout.LogoutFilter@12c76d6e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@521ba38f, org.springframework.security.web.session.ConcurrentSessionFilter@39a7eca5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e5e6573, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21f50d2c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@247bbfba, org.springframework.security.web.session.SessionManagementFilter@714f1a44, org.springframework.security.web.access.ExceptionTranslationFilter@520a95ff, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e07b4db]
+""2019-12-11 02:14:57 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2019-12-11 02:14:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2019-12-11 02:14:57 [main] INFO  c.e.todolist.TodolistApplication - Started TodolistApplication in 9.177 seconds (JVM running for 9.783)
+""2019-12-11 02:14:57 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2019-12-11 02:17:10 [main] INFO  c.e.todolist.TodolistApplication - Starting TodolistApplication on DESKTOP-BQ4L55I with PID 19296 (C:\Users\HP\Desktop\todolist\target\classes started by HP in C:\Users\HP\Desktop\todolist)
+""2019-12-11 02:17:10 [main] INFO  c.e.todolist.TodolistApplication - No active profile set, falling back to default profiles: default
+""2019-12-11 02:17:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-12-11 02:17:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82ms. Found 2 repository interfaces.
+""2019-12-11 02:17:12 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-12-11 02:17:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2019-12-11 02:17:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2019-12-11 02:17:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+""2019-12-11 02:17:13 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2019-12-11 02:17:13 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-12-11 02:17:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-12-11 02:17:14 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+""2019-12-11 02:17:14 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2019-12-11 02:17:14 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.8.Final}
+""2019-12-11 02:17:15 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2019-12-11 02:17:15 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2019-12-11 02:17:16 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2019-12-11 02:17:16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-12-11 02:17:17 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@563172d3, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ab8589a, org.springframework.security.web.header.HeaderWriterFilter@1d6f77d7, org.springframework.security.web.authentication.logout.LogoutFilter@4ecd8ab1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@a2df0d5, org.springframework.security.web.session.ConcurrentSessionFilter@27bb74e1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@697a92af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@144ee8a7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5086623f, org.springframework.security.web.session.SessionManagementFilter@74b97416, org.springframework.security.web.access.ExceptionTranslationFilter@467af68c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d221b20]
+""2019-12-11 02:17:18 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2019-12-11 02:17:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2019-12-11 02:17:18 [main] INFO  c.e.todolist.TodolistApplication - Started TodolistApplication in 8.607 seconds (JVM running for 9.224)
+""2019-12-11 02:17:33 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2019-12-11 02:19:12 [main] INFO  c.e.todolist.TodolistApplication - Starting TodolistApplication on DESKTOP-BQ4L55I with PID 16184 (C:\Users\HP\Desktop\todolist\target\classes started by HP in C:\Users\HP\Desktop\todolist)
+""2019-12-11 02:19:12 [main] INFO  c.e.todolist.TodolistApplication - No active profile set, falling back to default profiles: default
+""2019-12-11 02:19:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-12-11 02:19:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 113ms. Found 2 repository interfaces.
+""2019-12-11 02:19:14 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-12-11 02:19:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2019-12-11 02:19:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2019-12-11 02:19:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+""2019-12-11 02:19:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2019-12-11 02:19:15 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2019-12-11 02:19:15 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2019-12-11 02:19:15 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+""2019-12-11 02:19:16 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2019-12-11 02:19:16 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.8.Final}
+""2019-12-11 02:19:16 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2019-12-11 02:19:16 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2019-12-11 02:19:17 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2019-12-11 02:19:17 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-12-11 02:19:19 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5cffec7, org.springframework.security.web.context.SecurityContextPersistenceFilter@49d42faf, org.springframework.security.web.header.HeaderWriterFilter@6dece1f9, org.springframework.security.web.authentication.logout.LogoutFilter@25fd6d1e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@51132514, org.springframework.security.web.session.ConcurrentSessionFilter@1214d23c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@502c2278, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c573229, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e81617a, org.springframework.security.web.session.SessionManagementFilter@32b112a1, org.springframework.security.web.access.ExceptionTranslationFilter@2707c790, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4be12f6c]
+""2019-12-11 02:19:19 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2019-12-11 02:19:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2019-12-11 02:19:19 [main] INFO  c.e.todolist.TodolistApplication - Started TodolistApplication in 8.446 seconds (JVM running for 9.12)
+""2019-12-11 02:19:27 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+"
