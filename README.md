@@ -1,6 +1,11 @@
 # Secure TodoList
 
-Todo list have got existing vulnerability
+Todo list haven't got existing vulnerability
+
+# FINAL PROJECT UPDATE !
+-OPA control mechanism is added
+-Admin page is added
+
 
 ## Getting Started
 
@@ -29,4 +34,9 @@ You can also use Maven plugin to run your Spring Boot app. Use the below example
   
   ```
   mvn spring-boot:run
+  ```
+  
+  for windows
+  ```
+  ./mvnw spring-boot:run
   ```
