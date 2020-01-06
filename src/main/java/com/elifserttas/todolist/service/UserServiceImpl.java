@@ -7,6 +7,7 @@ import com.elifserttas.todolist.command.UsersCommand;
 import com.elifserttas.todolist.converter.UsersCommandToUsersConverter;
 import com.elifserttas.todolist.entity.Users;
 import com.elifserttas.todolist.repository.UserRepository;
+import org.springframework.util.StringUtils;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -31,9 +32,11 @@ public class UserServiceImpl implements UserService{
 
 	@Override
 	public void saveUsersCommand(UsersCommand usersCommand) {
-		
-		Users user =  usersCommandToUsersConverter.convert(usersCommand);
-		userRepository.save(user);
+		if(!StringUtils.isEmpty(usersCommand.getPassword()) && !StringUtils.isEmpty(usersCommand.getUserName()) ){
+			Users user =  usersCommandToUsersConverter.convert(usersCommand);
+			userRepository.save(user);
+		}
+
 	}
 
 	public List<UsersCommand> findAll(){

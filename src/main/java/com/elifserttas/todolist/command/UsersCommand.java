@@ -8,6 +8,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import javax.validation.constraints.NotEmpty;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -21,8 +23,10 @@ public class UsersCommand implements Serializable {
 
     private String password;
 
+    @NotEmpty
     private String userName;
 
+    @NotEmpty
     private String lastName;
 
     private int active;
