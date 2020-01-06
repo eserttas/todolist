@@ -1,9 +1,13 @@
 package com.elifserttas.todolist.config;
 
+import com.elifserttas.todolist.config.OPA.OPAVoter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.security.access.AccessDecisionManager;
+import org.springframework.security.access.AccessDecisionVoter;
+import org.springframework.security.access.vote.UnanimousBased;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -16,6 +20,9 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 
 import com.elifserttas.todolist.repository.UserRepository;
 import com.elifserttas.todolist.service.CustomUserDetailsService;
+
+import java.util.Arrays;
+import java.util.List;
 
 @EnableWebSecurity
 @EnableJpaRepositories(basePackageClasses = UserRepository.class)
@@ -59,16 +66,24 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 		http.csrf().disable().authorizeRequests()
 				.antMatchers("/h2-console", "/h2-console/**", "/login", "/register", "/css/**", "/js/**").permitAll()
-				.and().authorizeRequests().antMatchers("/", "/post", "/post/**").authenticated().and()
-				.formLogin().loginPage("/login").usernameParameter("username").passwordParameter("password").permitAll()
+				.antMatchers("/", "/post", "/post/**","/admin","/admin/**").authenticated().accessDecisionManager(accessDecisionManager())
+				.and().formLogin().loginPage("/login").usernameParameter("username").passwordParameter("password").permitAll()
 				.and().logout().permitAll();
 
 		http.sessionManagement().maximumSessions(1).sessionRegistry(sessionRegistry());
 
-	
+
 
 		http.headers().frameOptions().disable();
 
+	}
+
+
+	@Bean
+	public AccessDecisionManager accessDecisionManager() {
+		List<AccessDecisionVoter<? extends Object>> decisionVoters = Arrays
+				.asList(new OPAVoter("http://46.101.193.234:8181/v1/data/http/authz/allow"));
+		return new UnanimousBased(decisionVoters);
 	}
 
 }
