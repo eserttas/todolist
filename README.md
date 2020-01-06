@@ -35,3 +35,8 @@ You can also use Maven plugin to run your Spring Boot app. Use the below example
   ```
   mvn spring-boot:run
   ```
+  
+  for windows
+  ```
+  ./mvnw spring-boot:run
+  ```
