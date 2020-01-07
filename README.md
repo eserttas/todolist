@@ -2,6 +2,24 @@
 
 Todo list haven't got existing vulnerability
 
+Cloud IP (site adress) 
+
+http://46.101.193.234:8087
+
+H2 - Database Adress
+
+http://46.101.193.234:8087/h2-console
+
+H2 console a girişten sonra
+
+Saves setting : Generic H2(embedded) 
+
+JDBC url : jdbc:h2:mem:testdb
+
+Username :sa
+
+password boş olcak
+
 # FINAL PROJECT UPDATE !
 -OPA control mechanism is added
 -Admin page is added
